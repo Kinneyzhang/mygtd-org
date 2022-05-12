@@ -1,0 +1,69 @@
+#+startup: fold
+* 计科
+:PROPERTIES:
+:CUSTOM_ID: CS
+:LEVEL:    1
+:END:
+* 健康
+:PROPERTIES:
+:CUSTOM_ID: health
+:LEVEL:    1
+:END:
+* 工作
+:PROPERTIES:
+:CUSTOM_ID: work
+:LEVEL:    1
+:END:
+* 英语
+:PROPERTIES:
+:CUSTOM_ID: English
+:LEVEL:    1
+:END:
+
+# #################
+
+* 操作系统
+:PROPERTIES:
+:PARENT_ID: CS
+:CUSTOM_ID: OS
+:END:
+* Hack Emacs
+:PROPERTIES:
+:CUSTOM_ID: emacs
+:PARENT_ID: CS
+:END:
+* C/C++ 语言
+:PROPERTIES:
+:PARENT_ID: CS
+:CUSTOM_ID: c/c++
+:END:
+* 数据结构与算法
+:PROPERTIES:
+:PARENT_ID: CS
+:CUSTOM_ID: data-structure-and-algorithm
+:END:
+* 跑步瘦身
+:PROPERTIES:
+:PARENT_ID: health
+:CUSTOM_ID: running
+:END:
+* 力量训练
+:PROPERTIES:
+:PARENT_ID: health
+:CUSTOM_ID: strength-exercise
+:END:
+* 信管自研
+:PROPERTIES:
+:PARENT_ID: work
+:CUSTOM_ID: infoManage-inner
+:END:
+* 英语口语
+:PROPERTIES:
+:PARENT_ID: English
+:CUSTOM_ID: oral-English
+:END:
+* 亚信项目
+:PROPERTIES:
+:PARENT_ID: work
+:ID:       f8275587-2918-4139-a36a-0655bb5368c8
+:END:
