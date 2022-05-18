@@ -3,22 +3,26 @@
 :PROPERTIES:
 :ID:       1a142d66-c7cf-42b8-aa98-a48b6a4b9b9b
 :PARENT_ID: ba65d25f-ef94-4d6b-8fcc-6b39d0a9ba3d
+:ORDER:    1
 :END:
 * DONE 回收由于313改为2导致没有路由的单子
 :PROPERTIES:
 :ID:       9fbb9b9f-5be3-4596-bdb5-9e69f354691d
 :PARENT_ID: ba65d25f-ef94-4d6b-8fcc-6b39d0a9ba3d
+:ORDER:    2
 :END:
 * DONE 回退前置 groupMember 错单
 :PROPERTIES:
 :ID:       b2862f34-56c2-40f9-a6f8-5a5727dda00f
 :PARENT_ID: ba65d25f-ef94-4d6b-8fcc-6b39d0a9ba3d
+:ORDER:    3
 :END:
 * DONE 对账环境前置工单创建及用户赋权（写脚本）
 CLOSED: [2022-04-05 Tue 18:11] SCHEDULED: <2022-04-05 Tue>
 :PROPERTIES:
 :ID:       59dd169d-cbaf-4e41-9497-8d09c4609c05
 :PARENT_ID: ba65d25f-ef94-4d6b-8fcc-6b39d0a9ba3d
+:ORDER:    4
 :END:
 :LOGBOOK:
 CLOCK: [2022-04-05 Tue 16:57]--[2022-04-05 Tue 18:11] =>  1:14
@@ -28,6 +32,7 @@ CLOSED: [2022-04-05 Tue 16:54] SCHEDULED: <2022-04-05 Tue>
 :PROPERTIES:
 :ID:       2400f718-f8e0-4681-9aa3-4af60d28c271
 :PARENT_ID: ba65d25f-ef94-4d6b-8fcc-6b39d0a9ba3d
+:ORDER:    5
 :END:
 低级错误，acct3连接串中多打了一个@符号。
 * DONE 批量更新信管svn前置工单建表语句（写脚本）
@@ -35,6 +40,7 @@ CLOSED: [2022-04-05 Tue 19:56]
 :PROPERTIES:
 :ID:       b0863d29-b54c-4eee-b6e4-1c4760d17e4b
 :PARENT_ID: ba65d25f-ef94-4d6b-8fcc-6b39d0a9ba3d
+:ORDER:    6
 :END:
 :LOGBOOK:
 CLOCK: [2022-04-05 Tue 19:36]--[2022-04-05 Tue 19:56] =>  0:20
@@ -45,12 +51,14 @@ CLOSED: [2022-04-05 Tue 20:33]
 :PROPERTIES:
 :ID:       b8fbd1af-d517-4aa6-b2fc-a2e039ae88c9
 :PARENT_ID: ba65d25f-ef94-4d6b-8fcc-6b39d0a9ba3d
+:ORDER:    7
 :END:
 * DONE 对账环境异动应用问题解决
 CLOSED: [2022-04-07 Thu 11:36]
 :PROPERTIES:
 :ID:       7618d2d3-acfe-43de-a113-da9abc177ad2
 :PARENT_ID: ba65d25f-ef94-4d6b-8fcc-6b39d0a9ba3d
+:ORDER:    8
 :END:
 :LOGBOOK:
 - State "NEXT"       from "WAITING"    [2022-04-07 Thu 11:32]
@@ -63,6 +71,7 @@ CLOSED: [2022-04-06 Wed 15:43]
 :PROPERTIES:
 :ID:       6284ea06-1f33-4ba4-8fe7-a5ac585dae75
 :PARENT_ID: ba65d25f-ef94-4d6b-8fcc-6b39d0a9ba3d
+:ORDER:    9
 :END:
 :LOGBOOK:
 CLOCK: [2022-04-06 Wed 13:06]--[2022-04-06 Wed 13:29] =>  0:23
@@ -74,13 +83,15 @@ CLOSED: [2022-04-06 Wed 16:10]
 :PROPERTIES:
 :ID:       94bc3e7a-54fb-4c36-a80b-ece5b8988e4f
 :PARENT_ID: ba65d25f-ef94-4d6b-8fcc-6b39d0a9ba3d
+:ORDER:    10
 :END:
 稽核包未更新
-* DONE 测试环境搭建：工单表/前置应用
+* DONE 测试环境搭建：工单表&前置应用
 CLOSED: [2022-04-06 Wed 17:13]
 :PROPERTIES:
 :ID:       69ca4133-c8b8-4c71-9815-b8634200943c
 :PARENT_ID: ba65d25f-ef94-4d6b-8fcc-6b39d0a9ba3d
+:ORDER:    11
 :END:
   :LOGBOOK:
   CLOCK: [2022-04-05 Tue 20:47]--[2022-04-05 Tue 21:00] =>  0:13
@@ -89,11 +100,13 @@ CLOSED: [2022-04-06 Wed 17:13]
 :PROPERTIES:
 :PARENT_ID: NJU-2022-OS
 :ID:       46389b2f-d306-4832-acb9-651749daa22d
+:ORDER:    1
 :END:
 * TODO 1.3 多处理器编程(线程库、现代处理器和宽松内存模型)
 :PROPERTIES:
 :PARENT_ID: NJU-2022-OS
 :ID:       b639a91e-1a04-4ece-b03a-1e5c854903df
+:ORDER:    2
 :END:
 
 * DONE 没有ID属性的entry设置child时，自动添加ID属性
@@ -101,6 +114,7 @@ CLOSED: [2022-05-01 Sun 11:58]
 :PROPERTIES:
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
 :ID:       427af989-3139-4e96-adde-6ce105403c55
+:ORDER:    1
 :END:
 :LOGBOOK:
 CLOCK: [2022-05-01 Sun 11:30]--[2022-05-01 Sun 11:58] =>  0:28
@@ -110,6 +124,7 @@ CLOSED: [2022-05-01 Sun 15:58]
 :PROPERTIES:
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
 :ID:       bc90b665-ede4-4e61-98cb-a7d9923d24cc
+:ORDER:    2
 :END:
 :LOGBOOK:
 CLOCK: [2022-05-01 Sun 15:39]--[2022-05-01 Sun 15:58] =>  0:19
@@ -120,12 +135,14 @@ CLOSED: [2022-05-04 Wed 16:31]
 :PROPERTIES:
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
 :ID:       aafb8263-47db-4f31-b919-7ce46246bfc3
+:ORDER:    3
 :END:
 * DONE 项目视图功能：跳转到文件中的entry(按键RET)
 CLOSED: [2022-05-04 Wed 16:30]
 :PROPERTIES:
 :ID:       02889ae0-fcce-4f52-9527-c3cc92805c32
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
+:ORDER:    4
 :END:
 :LOGBOOK:
 CLOCK: [2022-05-03 Tue 15:36]--[2022-05-03 Tue 16:09] =>  0:33
@@ -135,6 +152,7 @@ CLOSED: [2022-05-04 Wed 09:37]
 :PROPERTIES:
 :ID:       b0e710be-000f-4b10-bf5a-d40fd78ee7d1
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
+:ORDER:    5
 :END:
 :LOGBOOK:
 CLOCK: [2022-05-04 Wed 09:22]--[2022-05-04 Wed 09:37] =>  0:15
@@ -145,6 +163,7 @@ CLOSED: [2022-05-07 Sat 11:08]
 :PROPERTIES:
 :ID:       30964573-a057-49ac-b18b-1ae15e0bb303
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
+:ORDER:    6
 :END:
 :LOGBOOK:
 CLOCK: [2022-05-04 Wed 16:25]--[2022-05-04 Wed 16:28] =>  0:03
@@ -154,6 +173,7 @@ CLOCK: [2022-05-04 Wed 16:11]--[2022-05-04 Wed 16:24] =>  0:13
 :PROPERTIES:
 :ID:       16a11d39-7c9d-4905-b4bc-210f9718e641
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
+:ORDER:    7
 :END:
 :LOGBOOK:
 CLOCK: [2022-05-05 Thu 17:36]--[2022-05-05 Thu 17:48] =>  0:12
@@ -163,18 +183,26 @@ CLOSED: [2022-05-07 Sat 11:21]
 :PROPERTIES:
 :ID:       6abfb928-7646-4477-84ab-c0c1539bf553
 :END:
-* DONE 项目功能视图：刷新时保存光标所在的entry位置
-CLOSED: [2022-05-05 Thu 17:30]
+* NEXT 项目功能视图：刷新时保存光标所在的entry位置
 :PROPERTIES:
 :ID:       c07ce5e9-177d-49a8-b541-f0e67836deaa
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
+:ORDER:    8
 :END:
-* NEXT 通用视图功能：使用ewoc只更新有变动的部分
+* NEXT 嵌入ewoc改造和代码重构
 :PROPERTIES:
 :ID:       593585f0-8c47-4413-a5fd-dbf9ca3f749d
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
+:ORDER:    9
 :END:
 :LOGBOOK:
+CLOCK: [2022-05-15 Sun 16:15]--[2022-05-15 Sun 17:32] =>  1:17
+CLOCK: [2022-05-15 Sun 15:13]--[2022-05-15 Sun 16:15] =>  1:02
+CLOCK: [2022-05-15 Sun 12:53]--[2022-05-15 Sun 15:09] =>  2:16
+CLOCK: [2022-05-15 Sun 12:08]--[2022-05-15 Sun 12:38] =>  0:30
+CLOCK: [2022-05-15 Sun 00:38]--[2022-05-15 Sun 00:42] =>  0:04
+CLOCK: [2022-05-14 Sat 16:07]--[2022-05-14 Sat 16:09] =>  0:02
+CLOCK: [2022-05-13 Fri 22:52]--[2022-05-13 Fri 22:53] =>  0:01
 CLOCK: [2022-05-08 Sun 13:28]--[2022-05-08 Sun 13:35] =>  0:07
 CLOCK: [2022-05-07 Sat 23:43]--[2022-05-07 Sat 23:44] =>  0:01
 :END:
@@ -183,12 +211,13 @@ CLOSED: [2022-05-07 Sat 11:40]
 :PROPERTIES:
 :ID:       7fe5188c-3df6-4321-a1c2-c1e06bd92932
 :PARENT_ID: 2595c172-46a7-43ea-aaa4-dca146571f57
+:ORDER:    1
 :END:
-* DONE 项目视图功能：状态改变(td/tt)
-CLOSED: [2022-05-06 Fri 15:04]
+* NEXT 项目视图功能：状态改变(td/tt)
 :PROPERTIES:
 :ID:       5c5b182b-df8e-4d83-88f6-7dd92fbc40da
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
+:ORDER:    10
 :END:
 :LOGBOOK:
 CLOCK: [2022-05-06 Fri 14:38]--[2022-05-06 Fri 15:04] =>  0:26
@@ -198,6 +227,7 @@ CLOSED: [2022-05-06 Fri 16:28]
 :PROPERTIES:
 :ID:       dfd89357-4fef-4ab1-ab70-1561c9356e86
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
+:ORDER:    11
 :END:
 :LOGBOOK:
 CLOCK: [2022-05-06 Fri 16:19]--[2022-05-06 Fri 16:28] =>  0:09
@@ -207,6 +237,7 @@ CLOSED: [2022-05-06 Fri 16:41]
 :PROPERTIES:
 :ID:       f002ff5e-0b8c-4ff5-b68e-51b7fb4fb1b2
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
+:ORDER:    12
 :END:
 :LOGBOOK:
 CLOCK: [2022-05-06 Fri 16:29]--[2022-05-06 Fri 16:41] =>  0:12
@@ -217,6 +248,7 @@ CLOSED: [2022-05-06 Fri 15:40]
 :PROPERTIES:
 :ID:       1707c210-063b-4c7b-86e1-1be210a85ef6
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
+:ORDER:    13
 :END:
 :LOGBOOK:
 CLOCK: [2022-05-06 Fri 15:21]--[2022-05-06 Fri 15:40] =>  0:19
@@ -230,6 +262,7 @@ CLOSED: [2022-05-07 Sat 10:13]
 :PROPERTIES:
 :ID:       29dcb6cd-12c3-483c-b1d2-a08873d59fa0
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
+:ORDER:    14
 :END:
 :LOGBOOK:
 CLOCK: [2022-05-06 Fri 19:43]--[2022-05-06 Fri 20:34] =>  0:51
@@ -241,18 +274,20 @@ CLOCK: [2022-05-06 Fri 17:37]--[2022-05-06 Fri 18:03] =>  0:26
 :PROPERTIES:
 :ID:       38b2c5c5-58c3-4e62-95e2-6451b16670ce
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
+:ORDER:    15
 :END:
 * DONE 项目视图功能：entry重命名（考虑wdired方式）
 CLOSED: [2022-05-07 Sat 10:12]
 :PROPERTIES:
 :ID:       5047a353-b94b-465d-88d7-0c214bfd4281
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
+:ORDER:    16
 :END:
-* DONE 项目视图功能：正在计时的entry高亮显示
-CLOSED: [2022-05-07 Sat 10:58]
+* NEXT 项目视图功能：正在计时的entry高亮显示
 :PROPERTIES:
 :ID:       d30bfcf2-1943-4a7c-b9bd-d82fcd01594c
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
+:ORDER:    17
 :END:
 :LOGBOOK:
 CLOCK: [2022-05-07 Sat 10:53]--[2022-05-07 Sat 10:55] =>  0:02
@@ -263,6 +298,7 @@ CLOCK: [2022-05-07 Sat 10:29]--[2022-05-07 Sat 10:42] =>  0:13
 :PROPERTIES:
 :ID:       2a2e5d40-4cba-4a97-9adf-3b374c09f2ce
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
+:ORDER:    18
 :END:
 - 给todo文件中任务添加子任务时，自动升级为项目，移动到project文件中
 * DONE 买大小适合的床单
@@ -270,16 +306,18 @@ CLOSED: [2022-05-09 Mon 14:48]
 :PROPERTIES:
 :ID:       feff2cc6-f7dd-498f-9afa-19492765cfba
 :END:
-* TODO 看代码，熟悉常用的API和工具函数
+* NEXT 看代码，熟悉常用的API和工具函数
 :PROPERTIES:
 :ID:       f2524153-b13a-49d4-88c6-5bcf9ea370a1
 :PARENT_ID: 2595c172-46a7-43ea-aaa4-dca146571f57
+:ORDER:    2
 :END:
 * DONE 项目视图功能：显示单独项目结构
 CLOSED: [2022-05-07 Sat 15:46]
 :PROPERTIES:
 :ID:       4c5e05d3-8600-4de4-b0e9-0a3f44c6f656
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
+:ORDER:    19
 :END:
 :LOGBOOK:
 CLOCK: [2022-05-07 Sat 14:54]--[2022-05-07 Sat 15:46] =>  0:52
@@ -291,4 +329,26 @@ CLOCK: [2022-05-07 Sat 14:45]--[2022-05-07 Sat 14:50] =>  0:05
 :END:
 :LOGBOOK:
 CLOCK: [2022-05-07 Sat 16:59]--[2022-05-07 Sat 17:12] =>  0:13
+:END:
+* NEXT 通用视图功能：隐藏cursor，高亮光标所在行
+:PROPERTIES:
+:ID:       df19194d-63d6-4775-91b4-c4047f9bbacd
+:PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
+:ORDER:    20
+:END:
+* NEXT 扒代码分析200039的具体错误场景
+  :PROPERTIES:
+  :ID:       5553840b-c766-48b3-b02a-98c7db9ea362
+  :PARENT_ID: 2595c172-46a7-43ea-aaa4-dca146571f57
+  :ORDER:    3
+  :END:
+  :LOGBOOK:
+  CLOCK: [2022-05-16 Mon 10:11]--[2022-05-16 Mon 10:34] =>  0:23
+  :END:
+* DONE 学习链表、栈和队列
+  CLOSED: [2022-05-16 Mon 22:43]
+:PROPERTIES:
+:ID:       67d18a63-e037-42fa-bae0-9dc7f19bd330
+:PARENT_ID: self-learn-ds-al
+:ORDER:    1
 :END:

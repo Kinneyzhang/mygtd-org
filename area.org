@@ -3,21 +3,25 @@
 :PROPERTIES:
 :CUSTOM_ID: CS
 :LEVEL:    1
+:ORDER:    1
 :END:
 * 健康
 :PROPERTIES:
 :CUSTOM_ID: health
 :LEVEL:    1
+:ORDER:    2
 :END:
 * 工作
 :PROPERTIES:
 :CUSTOM_ID: work
 :LEVEL:    1
+:ORDER:    3
 :END:
 * 英语
 :PROPERTIES:
 :CUSTOM_ID: English
 :LEVEL:    1
+:ORDER:    4
 :END:
 
 # #################
@@ -26,44 +30,59 @@
 :PROPERTIES:
 :PARENT_ID: CS
 :CUSTOM_ID: OS
+:ORDER:    1
 :END:
 * Hack Emacs
 :PROPERTIES:
 :CUSTOM_ID: emacs
 :PARENT_ID: CS
+:ORDER:    2
 :END:
+* Common-Lisp
+:PROPERTIES:
+:PARENT_ID: CS
+:ID:       4ea1d450-2042-4616-8550-ed534fdd7c76
+:ORDER:    3
+:END:  
 * C/C++ 语言
 :PROPERTIES:
 :PARENT_ID: CS
 :CUSTOM_ID: c/c++
+:ORDER:    4
 :END:
 * 数据结构与算法
 :PROPERTIES:
 :PARENT_ID: CS
 :CUSTOM_ID: data-structure-and-algorithm
+:ORDER:    5
 :END:
 * 跑步瘦身
 :PROPERTIES:
 :PARENT_ID: health
 :CUSTOM_ID: running
+:ORDER:    1
 :END:
 * 力量训练
 :PROPERTIES:
 :PARENT_ID: health
 :CUSTOM_ID: strength-exercise
+:ORDER:    2
 :END:
 * 信管自研
 :PROPERTIES:
 :PARENT_ID: work
 :CUSTOM_ID: infoManage-inner
+:ORDER:    1
 :END:
 * 英语口语
 :PROPERTIES:
 :PARENT_ID: English
 :CUSTOM_ID: oral-English
+:ORDER:    1
 :END:
 * 亚信项目
 :PROPERTIES:
 :PARENT_ID: work
 :ID:       f8275587-2918-4139-a36a-0655bb5368c8
+:ORDER:    2
 :END:

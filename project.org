@@ -3,35 +3,42 @@
 :PROPERTIES:
 :PARENT_ID: OS
 :CUSTOM_ID: NJU-2022-OS
+:ORDER:    1
 :END:
 * PROJ 信管知识库
 :PROPERTIES:
 :PARENT_ID: infoManage-inner
 :CUSTOM_ID: info-wiki
+:ORDER:    1
 :END:
 * PROJ b站视频练习英语口语
 :PROPERTIES:
 :PARENT_ID: oral-English
 :CUSTOM_ID: b-oral-English
+:ORDER:    1
 :END:
 - [[https://www.bilibili.com/video/BV1gK4y147wf][视频链接]]
 * PROJ 自学数据结构与算法(C)
 :PROPERTIES:
 :PARENT_ID: data-structure-and-algorithm
 :CUSTOM_ID: self-learn-ds-al
+:ORDER:    1
 :END:
 * PROJ 云南VB8
 :PROPERTIES:
 :PARENT_ID: f8275587-2918-4139-a36a-0655bb5368c8
 :ID:       ba65d25f-ef94-4d6b-8fcc-6b39d0a9ba3d
+:ORDER:    1
 :END:
 * PROJ Mygtd:个人gtd系统
 :PROPERTIES:
 :PARENT_ID: emacs
 :ID:       5103290c-1e80-4095-97d6-da034ec032ef
+:ORDER:    1
 :END:
 * PROJ 湖南错单管理
 :PROPERTIES:
 :ID:       2595c172-46a7-43ea-aaa4-dca146571f57
 :PARENT_ID: f8275587-2918-4139-a36a-0655bb5368c8
+:ORDER:    2
 :END:
