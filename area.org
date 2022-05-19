@@ -32,7 +32,7 @@
 :CUSTOM_ID: OS
 :ORDER:    1
 :END:
-* Hack Emacs
+* Emacs
 :PROPERTIES:
 :CUSTOM_ID: emacs
 :PARENT_ID: CS

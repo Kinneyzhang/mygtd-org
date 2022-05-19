@@ -18,7 +18,7 @@
 :ORDER:    3
 :END:
 * DONE 对账环境前置工单创建及用户赋权（写脚本）
-CLOSED: [2022-04-05 Tue 18:11] SCHEDULED: <2022-04-05 Tue>
+CLOSED: [2022-05-19 Thu 11:31] SCHEDULED: <2022-04-05 Tue>
 :PROPERTIES:
 :ID:       59dd169d-cbaf-4e41-9497-8d09c4609c05
 :PARENT_ID: ba65d25f-ef94-4d6b-8fcc-6b39d0a9ba3d
@@ -169,13 +169,15 @@ CLOSED: [2022-05-07 Sat 11:08]
 CLOCK: [2022-05-04 Wed 16:25]--[2022-05-04 Wed 16:28] =>  0:03
 CLOCK: [2022-05-04 Wed 16:11]--[2022-05-04 Wed 16:24] =>  0:13
 :END:
-* NEXT 项目视图功能：显示隐藏已完成的task。
+* DONE 项目视图功能：显示隐藏已完成的task。
+  CLOSED: [2022-05-19 Thu 17:30]
 :PROPERTIES:
 :ID:       16a11d39-7c9d-4905-b4bc-210f9718e641
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
 :ORDER:    7
 :END:
 :LOGBOOK:
+CLOCK: [2022-05-19 Thu 16:07]--[2022-05-19 Thu 17:30] =>  1:23
 CLOCK: [2022-05-05 Thu 17:36]--[2022-05-05 Thu 17:48] =>  0:12
 :END:
 * DONE 取昆明到长沙高铁报销凭证，提交4月差旅2.
@@ -183,13 +185,15 @@ CLOSED: [2022-05-07 Sat 11:21]
 :PROPERTIES:
 :ID:       6abfb928-7646-4477-84ab-c0c1539bf553
 :END:
-* NEXT 项目功能视图：刷新时保存光标所在的entry位置
+* DONE 项目功能视图：刷新时保存光标所在的entry位置
+  CLOSED: [2022-05-19 Thu 11:27]
 :PROPERTIES:
 :ID:       c07ce5e9-177d-49a8-b541-f0e67836deaa
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
 :ORDER:    8
 :END:
-* NEXT 嵌入ewoc改造和代码重构
+* DONE 嵌入ewoc改造和代码重构
+  CLOSED: [2022-05-19 Thu 11:26]
 :PROPERTIES:
 :ID:       593585f0-8c47-4413-a5fd-dbf9ca3f749d
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
@@ -213,7 +217,8 @@ CLOSED: [2022-05-07 Sat 11:40]
 :PARENT_ID: 2595c172-46a7-43ea-aaa4-dca146571f57
 :ORDER:    1
 :END:
-* NEXT 项目视图功能：状态改变(td/tt)
+* DONE 项目视图功能：状态改变(td/tt)
+  CLOSED: [2022-05-19 Thu 16:07]
 :PROPERTIES:
 :ID:       5c5b182b-df8e-4d83-88f6-7dd92fbc40da
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
@@ -294,7 +299,7 @@ CLOCK: [2022-05-07 Sat 10:53]--[2022-05-07 Sat 10:55] =>  0:02
 CLOCK: [2022-05-07 Sat 10:42]--[2022-05-07 Sat 10:47] =>  0:05
 CLOCK: [2022-05-07 Sat 10:29]--[2022-05-07 Sat 10:42] =>  0:13
 :END:
-* TODO 项目视图功能：添加子节点(按键+)
+* TODO 项目视图功能：添加任务(a t)
 :PROPERTIES:
 :ID:       2a2e5d40-4cba-4a97-9adf-3b374c09f2ce
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
@@ -330,13 +335,14 @@ CLOCK: [2022-05-07 Sat 14:45]--[2022-05-07 Sat 14:50] =>  0:05
 :LOGBOOK:
 CLOCK: [2022-05-07 Sat 16:59]--[2022-05-07 Sat 17:12] =>  0:13
 :END:
-* NEXT 通用视图功能：隐藏cursor，高亮光标所在行
+* DONE 通用视图功能：隐藏cursor，高亮光标所在行
+  CLOSED: [2022-05-19 Thu 11:27]
 :PROPERTIES:
 :ID:       df19194d-63d6-4775-91b4-c4047f9bbacd
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
 :ORDER:    20
 :END:
-* NEXT 扒代码分析200039的具体错误场景
+* NEXT 分析错误编码'200039'
   :PROPERTIES:
   :ID:       5553840b-c766-48b3-b02a-98c7db9ea362
   :PARENT_ID: 2595c172-46a7-43ea-aaa4-dca146571f57
@@ -351,4 +357,69 @@ CLOCK: [2022-05-07 Sat 16:59]--[2022-05-07 Sat 17:12] =>  0:13
 :ID:       67d18a63-e037-42fa-bae0-9dc7f19bd330
 :PARENT_ID: self-learn-ds-al
 :ORDER:    1
+:END:
+* TODO 项目视图功能：添加项目(a p)
+:PROPERTIES:
+:ID:       8b67188e-5363-405c-9a40-9bff1004b6fb
+:PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
+:ORDER:    21
+:END:
+* TODO 项目视图功能：添加领域(a a)
+:PROPERTIES:
+:ID:       58830ce1-593d-42a4-97d4-6020cfd2bfb6
+:PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
+:ORDER:    22
+:END:
+* DONE new test
+  CLOSED: [2022-05-19 Thu 17:32]
+:PROPERTIES:
+:ID:       d2d8fdaf-e949-40c1-9c6d-2c19cb608737
+:PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
+:ORDER:    23
+:END:
+* DONE add from area
+  CLOSED: [2022-05-19 Thu 16:24]
+:PROPERTIES:
+:ID:       bc7c0f18-4701-43aa-b615-fcb815317a29
+:PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
+:ORDER:    24
+:END:
+* TODO add fom top area
+:PROPERTIES:
+:ID:       0d283a7d-0503-4270-9776-7f3ffd3c9b46
+:PARENT_ID: NJU-2022-OS
+:ORDER:    3
+:END:
+* DONE new test2
+  CLOSED: [2022-05-19 Thu 17:29]
+:PROPERTIES:
+:ID:       deb7f203-a95d-45ae-92e4-31be4e34575f
+:PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
+:ORDER:    25
+:END:
+* DONE new test3
+  CLOSED: [2022-05-19 Thu 17:32]
+:PROPERTIES:
+:ID:       d15f07dc-1f5a-4ac6-8e7a-e0df871de1ee
+:PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
+:ORDER:    26
+:END:
+* DONE new test4
+  CLOSED: [2022-05-19 Thu 17:28]
+:PROPERTIES:
+:ID:       198727b9-8474-4ace-9777-958d7da2469f
+:PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
+:ORDER:    27
+:END:
+* TODO Bug: 在隐藏完成任务状态下，添加子任务和恢复cusor的位置有问题
+:PROPERTIES:
+:ID:       f675a49a-692f-422e-96cb-ee167d7df2d1
+:PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
+:ORDER:    28
+:END:
+* TODO 强制刷新性能优化
+:PROPERTIES:
+:ID:       bf55413b-55c9-4170-97e4-1a1d83d4201b
+:PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
+:ORDER:    29
 :END:
