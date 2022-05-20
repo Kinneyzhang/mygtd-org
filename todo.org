@@ -288,17 +288,6 @@ CLOSED: [2022-05-07 Sat 10:12]
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
 :ORDER:    16
 :END:
-* NEXT 项目视图功能：正在计时的entry高亮显示
-:PROPERTIES:
-:ID:       d30bfcf2-1943-4a7c-b9bd-d82fcd01594c
-:PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
-:ORDER:    17
-:END:
-:LOGBOOK:
-CLOCK: [2022-05-07 Sat 10:53]--[2022-05-07 Sat 10:55] =>  0:02
-CLOCK: [2022-05-07 Sat 10:42]--[2022-05-07 Sat 10:47] =>  0:05
-CLOCK: [2022-05-07 Sat 10:29]--[2022-05-07 Sat 10:42] =>  0:13
-:END:
 * TODO 项目视图功能：添加任务(a t)
 :PROPERTIES:
 :ID:       2a2e5d40-4cba-4a97-9adf-3b374c09f2ce
@@ -317,14 +306,14 @@ CLOSED: [2022-05-09 Mon 14:48]
 :PARENT_ID: 2595c172-46a7-43ea-aaa4-dca146571f57
 :ORDER:    2
 :END:
-* DONE 项目视图功能：显示单独项目结构
-CLOSED: [2022-05-07 Sat 15:46]
+* NEXT 项目视图功能：显示单独项目结构
 :PROPERTIES:
 :ID:       4c5e05d3-8600-4de4-b0e9-0a3f44c6f656
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
 :ORDER:    19
 :END:
 :LOGBOOK:
+CLOCK: [2022-05-20 Fri 15:17]--[2022-05-20 Fri 15:50] =>  0:33
 CLOCK: [2022-05-07 Sat 14:54]--[2022-05-07 Sat 15:46] =>  0:52
 CLOCK: [2022-05-07 Sat 14:45]--[2022-05-07 Sat 14:50] =>  0:05
 :END:
@@ -358,7 +347,8 @@ CLOCK: [2022-05-07 Sat 16:59]--[2022-05-07 Sat 17:12] =>  0:13
 :PARENT_ID: self-learn-ds-al
 :ORDER:    1
 :END:
-* TODO 项目视图功能：添加项目(a p)
+* DONE 项目视图功能：添加项目(a p)
+  CLOSED: [2022-05-20 Fri 10:15]
 :PROPERTIES:
 :ID:       8b67188e-5363-405c-9a40-9bff1004b6fb
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
@@ -370,48 +360,8 @@ CLOCK: [2022-05-07 Sat 16:59]--[2022-05-07 Sat 17:12] =>  0:13
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
 :ORDER:    22
 :END:
-* DONE new test
-  CLOSED: [2022-05-19 Thu 17:32]
-:PROPERTIES:
-:ID:       d2d8fdaf-e949-40c1-9c6d-2c19cb608737
-:PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
-:ORDER:    23
-:END:
-* DONE add from area
-  CLOSED: [2022-05-19 Thu 16:24]
-:PROPERTIES:
-:ID:       bc7c0f18-4701-43aa-b615-fcb815317a29
-:PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
-:ORDER:    24
-:END:
-* TODO add fom top area
-:PROPERTIES:
-:ID:       0d283a7d-0503-4270-9776-7f3ffd3c9b46
-:PARENT_ID: NJU-2022-OS
-:ORDER:    3
-:END:
-* DONE new test2
-  CLOSED: [2022-05-19 Thu 17:29]
-:PROPERTIES:
-:ID:       deb7f203-a95d-45ae-92e4-31be4e34575f
-:PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
-:ORDER:    25
-:END:
-* DONE new test3
-  CLOSED: [2022-05-19 Thu 17:32]
-:PROPERTIES:
-:ID:       d15f07dc-1f5a-4ac6-8e7a-e0df871de1ee
-:PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
-:ORDER:    26
-:END:
-* DONE new test4
-  CLOSED: [2022-05-19 Thu 17:28]
-:PROPERTIES:
-:ID:       198727b9-8474-4ace-9777-958d7da2469f
-:PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
-:ORDER:    27
-:END:
-* TODO Bug: 在隐藏完成任务状态下，添加子任务和恢复cusor的位置有问题
+* DONE Bug: 在隐藏完成任务状态下，添加子任务/恢复cusor/完成任务 的位置有问题
+  CLOSED: [2022-05-20 Fri 10:17]
 :PROPERTIES:
 :ID:       f675a49a-692f-422e-96cb-ee167d7df2d1
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
@@ -422,4 +372,13 @@ CLOCK: [2022-05-07 Sat 16:59]--[2022-05-07 Sat 17:12] =>  0:13
 :ID:       bf55413b-55c9-4170-97e4-1a1d83d4201b
 :PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
 :ORDER:    29
+:END:
+* NEXT 项目核心功能：生成项目树嵌套列表
+:PROPERTIES:
+:ID:       f416198a-01bb-4439-9936-6f95a4a6e647
+:PARENT_ID: 5103290c-1e80-4095-97d6-da034ec032ef
+:ORDER:    33
+:END:
+:LOGBOOK:
+CLOCK: [2022-05-20 Fri 15:51]
 :END:
